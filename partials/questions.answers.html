@@ -1,9 +1,9 @@
 <div ng-show="question.answers.length">
   <h2>Answers for {{ question.name }}</h2>
   <ul>
-    <li ng-repeat="item in question.answers">
+    <li ng-repeat="item in question.answers | orderBy: '-votes'">
       {{ item.name }}
-      {{ item.votes }} <button ng-click="upVote()" class="btn btn-success">Up Vote</button>
+      {{ item.votes }} <button ng-click="upVote(item)">Up Vote</button><button ng-click="downVote(item)">Down Vote</button>
     </li>
   </ul>
 </div>
