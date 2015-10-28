@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is an application that allows users to add questions and also allows users to answer those questions, it is not currently set up to verify experts at the moment. Further developement could implement an upvote system or have authorized users that are allowed to answer questions based on expertise_
+_This is an application that allows users to add questions and also allows users to answer those questions, it is not currently set up to verify experts at the moment. Answers can be up or down voted and will reorder based on an answers total score_
 
 ## Setup
 
